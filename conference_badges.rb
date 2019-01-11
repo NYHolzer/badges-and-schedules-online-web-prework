@@ -23,5 +23,5 @@ def printer (names)
   room_assignment = assigned_rooms (attendees)
   room_assignment.map do |y|
     puts "#{y}"
-  
+  end
 end
