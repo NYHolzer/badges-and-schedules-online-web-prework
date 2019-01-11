@@ -15,9 +15,10 @@ def assign_rooms (attendees)
 end
 
 def printer (names)
-  badges = batch_badge_creator (names)
-  badges.map do |x| 
+  attendees = batch_badge_creator (names)
+  attendees.map do |x| 
     puts "#{x}"
   end
   
+  assigned_rooms (attendees)
 end
