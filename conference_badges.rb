@@ -16,7 +16,7 @@ end
 
 def printer (names)
   badges = batch_badge_creator (names)
-  badges.map |x| do
+  badges.map do |x| 
     puts "#{x}"
   end
   
