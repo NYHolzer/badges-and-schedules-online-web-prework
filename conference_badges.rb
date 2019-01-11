@@ -18,4 +18,5 @@ def printer (names)
   batch_badge_creator.map do |x|
     puts "x"
   end
+  
 end
