@@ -20,5 +20,8 @@ def printer (names)
     puts "#{x}"
   end
   
-  assigned_rooms (attendees)
+  room_assignment = assigned_rooms (attendees)
+  room_assignment.map do |y|
+    puts "#{y}"
+  
 end
