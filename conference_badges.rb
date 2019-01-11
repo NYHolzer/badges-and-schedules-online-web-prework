@@ -20,5 +20,4 @@ def printer (names)
     puts "#{x}"
   end
   
-  
 end
